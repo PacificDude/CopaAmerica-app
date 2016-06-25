@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="monte.com.copaamerica2015mysql.GroupsActivity">
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/white_refresh_1"
+        android:orderInCategory="200"
+        android:title="@string/fixture"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/groups"
+        android:icon="@drawable/copa_america_2015"
+        android:orderInCategory="200"
+        android:title="@string/groups"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/teams"
+        android:icon="@drawable/ic_sa_continent"
+        android:orderInCategory="200"
+        android:title="@string/teams"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/fixture"
+        android:icon="@drawable/ic_orange_calendar_circle"
+        android:orderInCategory="200"
+        android:title="@string/fixture"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

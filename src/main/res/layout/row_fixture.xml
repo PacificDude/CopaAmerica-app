@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="7"
+    android:rowCount="3"
+    android:orientation="vertical"
+    android:useDefaultMargins="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date"
+        android:id="@+id/tvDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Phase"
+        android:id="@+id/tvPhase"
+        android:layout_below="@+id/tvDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ivTeam1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvPhase"
+         />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvTeam1"
+        android:hint="team 1"
+        android:layout_toRightOf="@+id/ivTeam1"
+        android:layout_below="@+id/tvPhase"
+        android:gravity="left" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/tvTeam1Goals"
+        android:layout_toLeftOf="@+id/tvVS"
+        android:layout_below="@+id/tvPhase"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/tvVS"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvPhase"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-"
+        android:id="@+id/tvTeam2Goals"
+        android:layout_toRightOf="@+id/tvVS"
+        android:layout_below="@+id/tvPhase" />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvTeam2"
+        android:layout_toLeftOf="@+id/ivTeam2"
+        android:layout_below="@+id/tvPhase"
+        android:hint="team 2"
+        android:gravity="right" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ivTeam2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvPhase"/>
+
+</RelativeLayout>

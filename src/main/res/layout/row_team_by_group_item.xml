@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:columnCount="10"
+    android:rowCount="1"
+    android:alignmentMode="alignMargins"
+    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/ivFlag"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvTeam"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Team"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/ivFlag"
+        android:width="0dp"
+        android:maxLength="3"
+        android:textAllCaps="true"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:id="@+id/tvGP"
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:text="GP"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvTeam"
+        android:gravity="center|right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvWins"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@id/tvGP"
+        android:gravity="center|right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvDraws"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvWins"
+        android:gravity="center|right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvLoses"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvDraws"
+        android:gravity="center|right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvGF"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="GF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvLoses"
+        android:gravity="center|right"
+        android:singleLine="false"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvGA"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="GA"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvGF"
+        android:gravity="center|right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvDifGoals"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:text="DG"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvGA"
+        android:gravity="center|right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:text="Pt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_toRightOf="@+id/tvDifGoals"
+        android:gravity="right"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

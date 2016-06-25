@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="10"
+    android:rowCount="2"
+    android:scrollbarAlwaysDrawHorizontalTrack="false">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Group &quot; &quot;"
+        android:id="@+id/tvGroup"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="0dp"
+        android:background="#FFFF860C" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView"
+        android:layout_below="@id/tvGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Team"
+        android:id="@+id/textView10"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_below="@id/tvGroup"
+        android:gravity="left"
+        android:layout_marginRight="5dp"
+        android:textColor="#ffffffff"/>
+
+    <TextView
+        android:layout_width="27dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="MP"
+        android:id="@+id/textView11"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="W"
+        android:id="@+id/textView12"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="D"
+        android:id="@+id/textView13"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="L"
+        android:id="@+id/textView14"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="GF"
+        android:id="@+id/textView15"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="GA"
+        android:id="@+id/textView16"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DG"
+        android:id="@+id/textView17"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pts."
+        android:id="@+id/textView18"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_below="@id/tvGroup"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:background="@drawable/cell_shape"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
